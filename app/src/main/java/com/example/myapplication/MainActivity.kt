@@ -43,6 +43,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow), drawerLayout)
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+        Toast.makeText(this,"hello ram", Toast.LENGTH_LONG)
         Toast.makeText(this,"hello suresh", Toast.LENGTH_LONG)
         Toast.makeText(this,"hello murthy", Toast.LENGTH_LONG)
     }
