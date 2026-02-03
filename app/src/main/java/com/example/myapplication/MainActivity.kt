@@ -44,6 +44,7 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
         Toast.makeText(this,"hello suresh", Toast.LENGTH_LONG)
+        Toast.makeText(this,"hello murthy", Toast.LENGTH_LONG)
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
